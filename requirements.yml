@@ -1,0 +1,7 @@
+---
+collections:
+  - ansible.posix
+  - community.general
+
+roles:
+  - weareinteractive.cron

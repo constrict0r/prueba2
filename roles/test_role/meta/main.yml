@@ -1,0 +1,25 @@
+---
+galaxy_info:
+  author: constrict0r
+  description: Otra prueba.
+  company: constrict0r
+
+  issue_tracker_url:
+    git.constrict0r.org/ansible/prueba2/-/issues
+
+  license: GPL 3.
+
+  min_ansible_version: 2.11
+
+  platforms:
+    - name: Debian
+      versions:
+        - bullseye
+    - name: Ubuntu
+      versions:
+        - jellyfish
+
+  galaxy_tags:
+    - devops
+
+  dependencies: []

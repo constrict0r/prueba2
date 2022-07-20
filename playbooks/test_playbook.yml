@@ -1,0 +1,13 @@
+---
+- name: Aplica configuración.
+  become: true
+  hosts: all
+
+  pre_tasks:
+    - name: Actualiza el sistema.
+      apt:
+        upgrade: true
+        update_cache: true
+
+  roles:
+    - constrict0r.prueba2.test_role

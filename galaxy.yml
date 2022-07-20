@@ -1,0 +1,30 @@
+---
+namespace: constrict0r
+
+name: prueba2
+
+version: 1.0.0
+
+readme: README.md
+
+authors:
+- constrict0r
+
+description: Otra prueba.
+
+license_file: 'LICENSE'
+
+tags:
+  - devops
+
+dependencies:
+  'ansible.posix': '*'
+  'community.general': '*'
+
+repository: https://git.constrict0r.org/ansible/prueba2
+
+documentation: https://git.constrict0r.org/ansible/prueba2
+
+homepage: https://git.constrict0r.org/ansible/prueba2
+
+issues: https://git.constrict0r.org/ansible/prueba2/-/issues

@@ -1,0 +1,7 @@
+---
+- name: Prepare
+  hosts: all
+
+  tasks:
+    - name: Actualiza el cache APT.
+      apt: update_cache=yes cache_valid_time=3600

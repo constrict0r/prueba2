@@ -1,0 +1,11 @@
+---
+all:
+  hosts:
+  children:
+    zabbix_agent:
+      hosts:
+        debian_docker:
+          ansible_connection: docker
+          ansible_user: root
+          certbot_create_if_missing: false
+          skip_handlers: true
