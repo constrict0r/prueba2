@@ -2,3 +2,6 @@
 collections:
   - ansible.posix
   - community.general
+  - name: https://github.com/{{ cookiecutter.author }}/{{ cookiecutter.project }}.git
+    scm: git
+    version: main
