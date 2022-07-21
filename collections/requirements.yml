@@ -2,5 +2,6 @@
 collections:
   - ansible.posix
   - community.general
-#  - name: https://github.com/constrict0r/prueba2.git
-#    type: git
+  - name: https://github.com/constrict0r/prueba2.git
+    scm: git
+    version: main
