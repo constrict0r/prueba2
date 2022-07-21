@@ -10,4 +10,4 @@
         update_cache: true
 
   roles:
-    - test_role
+    - constrict0r.prueba2.test_role
